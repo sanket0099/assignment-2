@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            display: inline-block;
+            margin-right: 20px; /* Adjust spacing between items */
+        }
+
+        .chapter {
+            font-weight: bold;
+        }
+
+        .section {
+            font-style: italic;
+        }
+
+        .subsection {
+            color: #0073e6; /* Change color for subsections */
+        }
+    </style>
+</head>
+<body>
+    <h1>Table of Contents</h1>
+    <ul>
+        <li class="chapter"><a href="#chapter1">Chapter 1</a>
+            <ul>
+                <li class="section"><a href="#section1.1">Section 1.1</a></li>
+                <li class="section"><a href="#section1.2">Section 1.2</a>
+                    <ul>
+                        <li class="subsection"><a href="#subsection1.2.1">Subsection 1.2.1</a></li>
+                        <li class="subsection"><a href="#subsection1.2.2">Subsection 1.2.2</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li class="chapter"><a href="#chapter2">Chapter 2</a>
+            <ul>
+                <li class="section"><a href="#section2.1">Section 2.1</a></li>
+            </ul>
+        </li>
+    </ul>
+
+    <!-- Content goes here -->
+
+    <h2 id="chapter1">Chapter 1</h2>
+    <p>Chapter 1 content goes here...</p>
+
+    <h3 id="section1.1">Section 1.1</h3>
+    <p>Section 1.1 content goes here...</p>
+
+    <h3 id="section1.2">Section 1.2</h3>
+    <p>Section 1.2 content goes here...</p>
+
+    <h4 id="subsection1.2.1">Subsection 1.2.1</h4>
+    <p>Subsection 1.2.1 content goes here...</p>
+
+    <h4 id="subsection1.2.2">Subsection 1.2.2</h4>
+    <p>Subsection 1.2.2 content goes here...</p>
+
+    <h2 id="chapter2">Chapter 2</h2>
+    <p>Chapter 2 content goes here...</p>
+
+</body>
+</html>
